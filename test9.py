@@ -3,6 +3,9 @@ x = 0
 
 while x < len(mu_list):
     if mu_list[x] > 0:
-     print(mu_list[x])
-     x += 1
+      print(mu_list[x])
+    elif 0 > mu_list[x]:
+    # print(mu_list[x])
+      break
+    x += 1
 
